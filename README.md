@@ -16,4 +16,4 @@
 - **Run Project** : `python manage.py runserver`
 
 
-- **Api Schema** : `localhost:8000/schema`
+- **Api Schema** : `localhost:8000/swagger`
