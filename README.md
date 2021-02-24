@@ -3,8 +3,8 @@
   <h1>Task Managment</h1>
 </div>
 
-- **Clone**: `git clone https://github.com/guluzadef/Team-Managment.gitt`
-- **After Clone**: `cd IBAR`
+- **Clone**: `git clone https://github.com/guluzadef/Team-Managment.git`
+- **After Clone**: `cd Team-Managment`
 
 - **Create and Activate virtualenv**: `python3 -m venv venv`  **after** `source /venv/bin/activate`
 
