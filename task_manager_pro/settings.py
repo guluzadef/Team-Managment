@@ -22,14 +22,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ig*vuhi8_=j4xvq3wflul9&9po&u=x3h21f^t75g3-4vuewl=k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_USE_TLS = True
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "info@teledoktor.co"
-EMAIL_HOST_PASSWORD = "gmtjegzskxhqobqz"
-ALLOWED_HOSTS = []
+EMAIL_HOST_USER = "your_test_email"
+EMAIL_HOST_PASSWORD = "password"
+ALLOWED_HOSTS = ["localhost"] #for development
 
 # Application definition
 
