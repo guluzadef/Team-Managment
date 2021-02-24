@@ -3,7 +3,7 @@
   <h1>Task Managment</h1>
 </div>
 
-- **Clone**: `git clone https://gitlab.com/bakuelectronics/saleor-app.git`
+- **Clone**: `git clone https://github.com/guluzadef/Team-Managment.gitt`
 - **After Clone**: `cd IBAR`
 
 - **Create and Activate virtualenv**: `python3 -m venv venv`  **after** `source /venv/bin/activate`
