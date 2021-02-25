@@ -39,7 +39,7 @@ class TaskCreateApi(CreateAPIView):
 
 
 class TaskListApi(APIView):  # GET
-    permission_classes = (permissions.AllowAny,)
+    permission_classes = (permissions.IsAuthenticated,)
 
     def get(self, request, id):
         teams = Tasks.objects.filter(id=id)
