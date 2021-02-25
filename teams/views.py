@@ -15,7 +15,7 @@ User = get_user_model()
 
 
 class TeamForIdApi(APIView):
-    permission_classes = (permissions.AllowAny,)
+    permission_classes = (permissions.IsAuthenticated,)
 
     def get(self, request):
         # team_id = request.user.team_id
@@ -25,7 +25,7 @@ class TeamForIdApi(APIView):
 
 
 class UserAddTeamApi(CreateAPIView):
-    permission_classes = (permissions.AllowAny,)  # deyishh!!!
+    permission_classes = (permissions.IsTaskManager,)  
     serializer_class = UsersSerializer
 
     def get(self, request):
